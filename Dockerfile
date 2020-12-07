@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:latest
 
 COPY entrypoint.sh /bin/
 
